@@ -37,6 +37,7 @@ public class AppController {
     public ModelAndView home(){
         ModelAndView modelAndView = new ModelAndView();
         modelAndView.addObject("posts", postService.getAllPosts());
+        modelAndView.addObject("titleHeader", "Recent Posts");
         modelAndView.setViewName("index");
         return modelAndView;
     }
@@ -45,6 +46,7 @@ public class AppController {
     public ModelAndView myBlog(){
         ModelAndView modelAndView = new ModelAndView();
         modelAndView.addObject("posts", postService.getByUserId(getAuthenticationUser().getId()));
+        modelAndView.addObject("titleHeader", "My Blog");
         modelAndView.setViewName("index");
         return modelAndView;
     }

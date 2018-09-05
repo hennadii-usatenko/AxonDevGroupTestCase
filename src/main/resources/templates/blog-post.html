@@ -150,8 +150,8 @@
 					<div class="row">
 						<div class="col-md-10">
 							<div class="post-meta">
-								<a class="post-category cat-2" href="category.html">JavaScript</a>
-								<span class="post-date">March 27, 2018</span>
+								<a class="post-category cat-2" href="#" th:text="${post.author.getFullName()}"></a>
+								<span class="post-date" th:text="${post.getFormattedDate()}"></span>
 							</div>
 							<h1 th:utext="${post.title}"></h1>
 						</div>

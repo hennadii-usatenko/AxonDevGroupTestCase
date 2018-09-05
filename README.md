@@ -23,7 +23,7 @@ Required technologies: Java 8 and any desired DB's and frameworks.
 
 # Overview
 **To authenticate we have several ways:**
-- Sign up new account http://localhost:8080/registration and login http://localhost:8080/login to our web app with role - **PUBLISHER**
+- Sign up new account http://localhost:8080/registration and then login http://localhost:8080/login to our web app with role - **PUBLISHER**
 - Just login by one from two hardcoded users (email and password the same: **root-root** or **user-user**)
 - Enter as guest http://localhost:8080/local/home
 
@@ -139,3 +139,4 @@ Delete particular post from db. And redirects to home page.
 # The spring template is taken from:
   
   https://github.com/gustavoponce7/SpringSecurityUserDetailsService
+  https://github.com/spring-guides/gs-uploading-files

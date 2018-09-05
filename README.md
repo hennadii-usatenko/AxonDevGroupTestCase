@@ -24,35 +24,24 @@ Required technologies: Java 8 and any desired DB's and frameworks.
 # Overview
 **To authenticate we have several ways:**
 - Sign up new account http://localhost:8080/registration and login http://localhost:8080/login to our web app with role - **PUBLISHER**
-
-![alt text](https://github.com/GennadiyUsatenko/AxonDevGroupTestCase/blob/master/src/main/webapp/WEB-INF/images/777.gif)
-
 - Just login by one from two hardcoded users (email and password the same: **root-root** or **user-user**)
 - Enter as guest http://localhost:8080/local/home
 
 **Create own blog post:**
 
-![alt text](https://github.com/GennadiyUsatenko/AxonDevGroupTestCase/blob/master/src/main/webapp/WEB-INF/images/777.gif)
+![alt text](https://github.com/GennadiyUsatenko/AxonDevGroupTestCase/blob/master/src/main/webapp/WEB-INF/gif/create-post.gif)
 
 **Update own blog post:**
 
-![alt text](https://github.com/GennadiyUsatenko/AxonDevGroupTestCase/blob/master/src/main/webapp/WEB-INF/images/777.gif)
+![alt text](https://github.com/GennadiyUsatenko/AxonDevGroupTestCase/blob/master/src/main/webapp/WEB-INF/gif/update-post.gif)
 
 **Delete own blog post:**
 
-![alt text](https://github.com/GennadiyUsatenko/AxonDevGroupTestCase/blob/master/src/main/webapp/WEB-INF/images/777.gif)
+![alt text](https://github.com/GennadiyUsatenko/AxonDevGroupTestCase/blob/master/src/main/webapp/WEB-INF/gif/delete-post.gif)
 
-**Get the list of all blog posts:**
+**Get only own posts, all blog posts and get a particular blog post:**
 
-![alt text](https://github.com/GennadiyUsatenko/AxonDevGroupTestCase/blob/master/src/main/webapp/WEB-INF/images/777.gif)
-
-**Get only own posts:**
-
-![alt text](https://github.com/GennadiyUsatenko/AxonDevGroupTestCase/blob/master/src/main/webapp/WEB-INF/images/777.gif)
-
-**Get a particular blog post:**
-
-![alt text](https://github.com/GennadiyUsatenko/AxonDevGroupTestCase/blob/master/src/main/webapp/WEB-INF/images/777.gif)
+![alt text](https://github.com/GennadiyUsatenko/AxonDevGroupTestCase/blob/master/src/main/webapp/WEB-INF/gif/other.gif)
 
 # API Documentation
 ## Create blog post

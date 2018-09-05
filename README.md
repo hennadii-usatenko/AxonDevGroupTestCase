@@ -144,9 +144,9 @@ Delete particular post from db. And redirects to home page.
     });
   ```
   
-  # The css template is taken from:
+# The css template is taken from:
   
-    https://colorlib.com/wp/template/webmag/
-  # The spring template is taken from:
+  https://colorlib.com/wp/template/webmag/
+# The spring template is taken from:
   
-    https://github.com/gustavoponce7/SpringSecurityUserDetailsService
+  https://github.com/gustavoponce7/SpringSecurityUserDetailsService

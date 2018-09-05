@@ -139,4 +139,5 @@ Delete particular post from db. And redirects to home page.
 # The spring template is taken from:
   
   https://github.com/gustavoponce7/SpringSecurityUserDetailsService
+  
   https://github.com/spring-guides/gs-uploading-files
